@@ -1,0 +1,16 @@
+[
+  {
+    "charIcon": "",
+    "threadTitle": "First Thread Post",
+    "threadDate": "2026-03-30",
+    "content": "A broad-shouldered knight in worn steel armor stood beneath the torchlight, his scarred helm tucked under one arm. He carried himself with a quiet sense of duty, the weight of old oaths pressing on him like the mail at his throat, and his eyes held both the memory of past battles and a stubborn hope for a better dawn. Though his gauntlets were stained with blood and sweat, he spoke with a steady voice that promised he would protect the weak and keep his word to the end.",
+    "tags": ["#tag1", "#tag2", "#tag3"]
+  },
+  {
+    "charIcon": "user/character2icon.png",
+    "threadTitle": "Second Thread Post",
+    "threadDate": "2026-03-31",
+    "content": "A tall wizard in a long, star-flecked robe stood with one hand resting on the gnarled oak staff at his side. His silver beard fell in neat braids, and his eyes glowed with calm intelligence as if he could read the next moment before it arrived. Every word he spoke carried the weight of ancient lore, and even in quiet moments his presence felt like a living spell, steady and quietly powerful.",
+    "tags": ["#tag1", "#tag2", "#tag3"]
+  }
+]
