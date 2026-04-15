@@ -51,7 +51,7 @@ nav ul{
 }
 
 nav li{
-    margin-right: 20px;
+    /* margin-right removed as gap handles spacing */
 }
 
 nav a {
@@ -279,10 +279,6 @@ footer ul{
     list-style: none;
 }
 
-footer li{
-    margin-right: 10vw;
-}
-
 footer a {
     text-decoration: none;
 }
@@ -297,4 +293,142 @@ footer a:visited {
 
 footer a:hover {
     color: #dfcdb9;
+}
+
+#signupMain{
+    display:grid;
+    grid-template: "signupTitle"
+                   "signUpForm"
+                   / 1fr;
+    padding: 0;
+}
+
+#signupTitle{
+    grid-area: signupTitle;
+    color: #1a2e51;
+    font-family: 'Courier';
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+    font-size: clamp(1.25rem, 5vw, 2rem);
+}
+
+#signUpForm {
+    grid-area: signUpForm;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: 0;
+    align-items: center;
+    width: 75%;
+}
+
+#signUpForm label{
+    font-weight: bold;
+    font-family: 'Courier';
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-bottom: .25vh;
+    text-align: center;
+}
+
+#signUpForm input{
+    padding: 8px;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    border: 1px solid #dfcdb9;
+    color: #030b16;
+    font-family: 'Arial';
+    min-height: 100%;
+    width: 50%;
+    font-size: clamp(0.95rem, 1.25vw, 1.05rem);
+    line-height: 1.5;
+}
+
+#signUpForm p{
+    color: #1a2e51;
+    font-family: 'Arial';
+    font-size: clamp(0.85rem, 1vw + 0.1rem, 1rem);
+    margin-top: -1vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
+    width: 75%;
+}
+
+#signUpForm button{
+    background-color: #1a2e51;
+    color: #f6f6f9;
+    font-family: 'Courier';
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signUpForm button:hover{
+    background-color: #030b16;
+}
+
+#aboutMain{
+    display: grid;
+    grid-template: "aboutTitle"
+                   "aboutContent"
+                   "codeOfConductTitle"
+                   "codeOfConduct"
+                   / 1fr;
+}
+
+#aboutTitle{
+    grid-area: aboutTitle;
+    color: #1a2e51;
+    font-family: 'Courier';
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+    font-size: clamp(1.25rem, 5vw, 2rem);
+}
+
+#aboutContent{
+    grid-area: aboutContent;
+    color: #030b16;
+    font-family: 'Arial';
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#codeOfConductTitle{
+    grid-area: codeOfConductTitle;
+    color: #1a2e51;
+    font-family: 'Courier';
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+
+#codeOfConduct{
+    grid-area: codeOfConduct;
+    overflow-y: auto;
+    max-height: 30vh;
+    color:#030b16;
+    font-family: 'Arial';
+    background-color: #dfcdb9;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#codeOfConduct li{
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: clamp(0.85rem, 1vw + 0.1rem, 1rem);
+    padding: 5px;
 }
