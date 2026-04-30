@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+  <account>
+    <id>001</id>
+    <tags>
+      <tag>Fantasy</tag>
+      <tag>Dark Fiction</tag>
+      <tag>Character-Driven</tag>
+    </tags>
+    <username>ShadowWeaver</username>
+    <email>shadow.weaver@email.com</email>
+    <joinDate>2025-11-15</joinDate>
+    <bio>Fantasy writer specializing in dark narratives and character-driven stories.</bio>
+    <posts>5</posts>
+    <followers>127</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>002</id>
+    <tags>
+      <tag>Poetry</tag>
+      <tag>Short Stories</tag>
+      <tag>Literary Fiction</tag>
+    </tags>
+    <username>MysticMuse</username>
+    <email>mystic.muse@email.com</email>
+    <joinDate>2025-12-01</joinDate>
+    <bio>Poet and short story author exploring themes of identity and belonging.</bio>
+    <posts>8</posts>
+    <followers>234</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>003</id>
+    <tags>
+      <tag>Mystery</tag>
+      <tag>Thriller</tag>
+      <tag>Suspense</tag>
+    </tags>
+    <username>CrimsonQuill</username>
+    <email>crimson.quill@email.com</email>
+    <joinDate>2026-01-10</joinDate>
+    <bio>Mystery and thriller writer with a passion for plot twists.</bio>
+    <posts>3</posts>
+    <followers>89</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>004</id>
+    <tags>
+      <tag>Experimental</tag>
+      <tag>Avant-Garde</tag>
+      <tag>Literary</tag>
+    </tags>
+    <username>EchoVoice</username>
+    <email>echo.voice@email.com</email>
+    <joinDate>2026-02-05</joinDate>
+    <bio>Experimental writer exploring unconventional storytelling techniques.</bio>
+    <posts>12</posts>
+    <followers>156</followers>
+    <isActive>false</isActive>
+  </account>
+  
+  <account>
+    <id>005</id>
+    <tags>
+      <tag>Science Fiction</tag>
+      <tag>Futurism</tag>
+      <tag>Technology</tag>
+    </tags>
+    <username>StellarScribe</username>
+    <email>stellar.scribe@email.com</email>
+    <joinDate>2026-02-20</joinDate>
+    <bio>Science fiction enthusiast writing about future worlds and technology.</bio>
+    <posts>6</posts>
+    <followers>198</followers>
+    <isActive>true</isActive>
+  </account>
+</accounts>

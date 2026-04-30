@@ -22,20 +22,16 @@
                 <li><a href="./about.html">About</a></li>
             </ul>
         </nav>
-        <main id="signupMain">
-            <h2 id="signupTitle">Writer's Block Signup</h2>
-            <form id="signUpForm" method="post" action="">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <label for="myEmail">Email:</label>
-                <input type="email" id="myEmail" name="myEmail" required>
-                <label for="dateOfBirth">Date of Birth:</label>
-                <input type="date" id="dateOfBirth" name="dateOfBirth" required>
-                <p id="signupAgree">By signing up to Writer's Block, you agree to our Code of Conduct as outlined in the About section and confirm that you are at least 18 years of age. You agree to abide by our rules and acknowledge that failure to do so may result in account termination.</p>
+        <main id="searchPage">
+            <h1 id="searchTitle">Search Accounts</h1>
+            <form id="searchForm" onsubmit="searchAccounts(event)">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" required>
                 <button type="submit">Submit</button>
             </form>
+            <h2 id="searchHeader">Search Results</h2>
+            <div id="searchResults">
+            </div>
         </main>
         <footer>
             <ul>
@@ -46,4 +42,5 @@
         </footer>
     </div>
 </body>
+<script src="searchScript.js"></script>
 </html>

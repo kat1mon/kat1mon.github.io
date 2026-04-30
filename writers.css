@@ -48,10 +48,9 @@ nav ul{
     gap: 20px;
     text-decoration: none;
     list-style: none;
-}
-
-nav li{
-    /* margin-right removed as gap handles spacing */
+    padding: 0;
+    padding-top: 1.5vh;
+    margin: 0;
 }
 
 nav a {
@@ -431,4 +430,69 @@ footer a:hover {
     line-height: 1.5;
     font-size: clamp(0.85rem, 1vw + 0.1rem, 1rem);
     padding: 5px;
+}
+
+#searchPage{
+    display: grid;
+    margin-top: 2vh;
+    grid-template: "searchTitle"
+                   "searchForm"
+                    "searchHeader"
+                   "searchResults"
+                   / 1fr;
+}
+
+#searchTitle{
+    grid-area: searchTitle;
+    color: #1a2e51;
+    font-family: 'Courier';
+    text-align: center;
+    max-height:10vh;
+    font-weight: bold;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+#searchForm{
+    grid-area: searchForm;
+    text-align: center;
+    margin-top: -14vh;
+}
+
+#searchForm input{
+    border-radius: 5px;
+    border: 1px solid #dfcdb9;
+    color: #030b16;
+    font-family: 'Arial';
+    width: 50vw;
+    font-size: clamp(0.95rem, 1.25vw, 1.05rem);
+    line-height: 1.5;
+}
+
+#searchForm button{
+    background-color: #1a2e51;
+    color: #f6f6f9;
+    font-family: 'Courier';
+    font-weight: bold;
+    font-size: clamp(0.95rem, 1.25vw, 1.05rem);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchHeader{
+    grid-area: searchHeader;
+    color: #1a2e51;
+    font-family: 'Courier';
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+    font-size: clamp(1rem, 4vw, 2rem);
+    margin-top: -22vh;
+}
+
+#searchResults{
+    grid-area: searchResults;
+    display: flex;
+    flex-wrap: wrap;
 }
