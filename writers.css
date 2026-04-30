@@ -495,4 +495,13 @@ footer a:hover {
     grid-area: searchResults;
     display: flex;
     flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 30vh;
+    color:#030b16;
+    font-family: 'Arial';
+    background-color: #dfcdb9;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
