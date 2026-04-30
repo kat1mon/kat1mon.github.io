@@ -434,12 +434,11 @@ footer a:hover {
 
 #searchPage{
     display: grid;
-    margin-top: 2vh;
     grid-template: "searchTitle"
                    "searchForm"
                     "searchHeader"
-                   "searchResults"
-                   / 1fr;
+                   "searchResults" / 1fr;
+    grid-template-rows: 10% 10% 10% 70%;
 }
 
 #searchTitle{
@@ -447,15 +446,13 @@ footer a:hover {
     color: #1a2e51;
     font-family: 'Courier';
     text-align: center;
-    max-height:10vh;
     font-weight: bold;
-    font-size: clamp(1.5rem, 5vw, 2rem);
+    font-size: clamp(2rem, 5vw, 2rem);
 }
 
 #searchForm{
     grid-area: searchForm;
     text-align: center;
-    margin-top: -14vh;
 }
 
 #searchForm input{
@@ -465,6 +462,7 @@ footer a:hover {
     font-family: 'Arial';
     width: 50vw;
     font-size: clamp(0.95rem, 1.25vw, 1.05rem);
+    margin-top: 2.5vh;
     line-height: 1.5;
 }
 
@@ -486,17 +484,13 @@ footer a:hover {
     font-family: 'Courier';
     text-align: center;
     margin: 0;
-    margin-top: 1em;
-    font-size: clamp(1rem, 4vw, 2rem);
-    margin-top: -22vh;
+    margin-top: 3vh;
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 #searchResults{
     grid-area: searchResults;
-    display: flex;
-    flex-wrap: wrap;
     overflow-y: auto;
-    max-height: 30vh;
     color:#030b16;
     font-family: 'Arial';
     background-color: #dfcdb9;
@@ -504,4 +498,41 @@ footer a:hover {
     padding: 25px;
     margin-left: 5%;
     margin-right: 5%;
+    max-height:50vh;
+}
+
+.account-result{
+    background-color: #f6f6f9;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-results-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f6f6f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-results-table thead{
+    background-color: #1a2e51;
+    color: #f6f6f9;
+    font-weight: bold;
+}
+
+.search-results-table th,
+.search-results-table td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dfcdb9;
+}
+
+.search-results-table tbody tr:hover{
+    background-color: #e8dcc8;
+}
+
+.search-results-table tbody tr:last-child td{
+    border-bottom: none;
 }

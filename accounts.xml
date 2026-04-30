@@ -79,4 +79,132 @@
     <followers>198</followers>
     <isActive>true</isActive>
   </account>
+  
+  <account>
+    <id>006</id>
+    <tags>
+      <tag>Romance</tag>
+      <tag>Contemporary</tag>
+      <tag>Drama</tag>
+    </tags>
+    <username>HeartPages</username>
+    <email>heart.pages@email.com</email>
+    <joinDate>2026-03-01</joinDate>
+    <bio>Romance writer capturing the complexity of modern relationships.</bio>
+    <posts>9</posts>
+    <followers>312</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>007</id>
+    <tags>
+      <tag>Horror</tag>
+      <tag>Psychological</tag>
+      <tag>Gothic</tag>
+    </tags>
+    <username>NightmareCraft</username>
+    <email>nightmare.craft@email.com</email>
+    <joinDate>2026-03-10</joinDate>
+    <bio>Horror writer specializing in atmospheric dread and psychological terror.</bio>
+    <posts>7</posts>
+    <followers>145</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>008</id>
+    <tags>
+      <tag>Historical Fiction</tag>
+      <tag>Adventure</tag>
+      <tag>Epic</tag>
+    </tags>
+    <username>HistoricalHeart</username>
+    <email>historical.heart@email.com</email>
+    <joinDate>2026-02-14</joinDate>
+    <bio>Historical fiction author bringing past eras to life through vivid storytelling.</bio>
+    <posts>11</posts>
+    <followers>267</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>009</id>
+    <tags>
+      <tag>Comedy</tag>
+      <tag>Satire</tag>
+      <tag>Humor</tag>
+    </tags>
+    <username>LaughTrack</username>
+    <email>laugh.track@email.com</email>
+    <joinDate>2026-01-25</joinDate>
+    <bio>Comedy writer crafting witty narratives that balance humor with deeper meaning.</bio>
+    <posts>14</posts>
+    <followers>289</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>010</id>
+    <tags>
+      <tag>Young Adult</tag>
+      <tag>Adventure</tag>
+      <tag>Coming-of-Age</tag>
+    </tags>
+    <username>YouthfulTales</username>
+    <email>youthful.tales@email.com</email>
+    <joinDate>2026-03-15</joinDate>
+    <bio>Young adult fiction writer creating stories about discovery and self-discovery.</bio>
+    <posts>4</posts>
+    <followers>178</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>011</id>
+    <tags>
+      <tag>Adventure</tag>
+      <tag>Fantasy</tag>
+      <tag>Epic</tag>
+    </tags>
+    <username>EpicAdventurer</username>
+    <email>epic.adventurer@email.com</email>
+    <joinDate>2026-02-28</joinDate>
+    <bio>Adventure writer blending epic fantasy with pulse-pounding quests.</bio>
+    <posts>8</posts>
+    <followers>224</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>012</id>
+    <tags>
+      <tag>Literary Fiction</tag>
+      <tag>Contemporary</tag>
+      <tag>Drama</tag>
+    </tags>
+    <username>InkReflection</username>
+    <email>ink.reflection@email.com</email>
+    <joinDate>2026-03-05</joinDate>
+    <bio>Literary fiction writer exploring the depths of human emotion and connection.</bio>
+    <posts>6</posts>
+    <followers>201</followers>
+    <isActive>true</isActive>
+  </account>
+  
+  <account>
+    <id>013</id>
+    <tags>
+      <tag>Thriller</tag>
+      <tag>Suspense</tag>
+      <tag>Action</tag>
+    </tags>
+    <username>PulseRaiser</username>
+    <email>pulse.raiser@email.com</email>
+    <joinDate>2026-01-20</joinDate>
+    <bio>Thriller writer crafting high-stakes action sequences and edge-of-seat suspense.</bio>
+    <posts>10</posts>
+    <followers>256</followers>
+    <isActive>true</isActive>
+  </account>
 </accounts>

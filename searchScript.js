@@ -56,19 +56,35 @@ function displayResults(accounts, query) {
         return;
     }
     
-    const resultHTML = accounts.map(account => {
+    const tableRows = accounts.map(account => {
         const username = account.getElementsByTagName("username")[0]?.textContent || "";
         const bio = account.getElementsByTagName("bio")[0]?.textContent || "";
-        const tags = Array.from(account.getElementsByTagName("tag")).map(tag => `<span class="tag">${tag.textContent}</span>`).join(" ");
+        const tags = Array.from(account.getElementsByTagName("tag")).map(tag => tag.textContent).join(", ");
         
         return `
-            <div class="account-result">
-                <h3>${username}</h3>
-                <p><strong>Bio:</strong> ${bio}</p>
-                <p><strong>Tags:</strong> ${tags}</p>
-            </div>
+            <tr>
+                <td>${username}</td>
+                <td>${bio}</td>
+                <td>${tags}</td>
+            </tr>
         `;
     }).join("");
     
-    searchResults.innerHTML = `<p>Found ${accounts.length} result(s):</p>${resultHTML}`;
+    const tableHTML = `
+        <p>Found ${accounts.length} result(s):</p>
+        <table class="search-results-table">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Bio</th>
+                    <th>Genres</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tableRows}
+            </tbody>
+        </table>
+    `;
+    
+    searchResults.innerHTML = tableHTML;
 }
